@@ -24,7 +24,7 @@ namespace assignment {
 
    public:
     // конструкторы
-    explicit LinkedList(const std::vector<int>& keys = {}) : size_{static_cast<int>(keys.size())} {
+    explicit LinkedList(int keys = {}, int i = 1) : size_{static_cast<int>(keys.size())} {
 
       if (keys.empty()) {
         return;
